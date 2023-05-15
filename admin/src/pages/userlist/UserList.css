@@ -1,0 +1,67 @@
+.userlist__container{
+    overflow: hidden;
+    width: 100%;
+}
+.userlist__container__table{
+    background-color: white;
+    min-width: 100%;
+    overflow: scroll;
+    padding: 20px;;
+}
+.userlist__container__userInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userlist__table {
+    border-collapse: collapse;
+    min-width: 100%;   
+  }
+th{
+    font-weight: 700;
+    color:gray;
+    font-size:12px;
+    text-align: left;
+}
+td{
+    font-weight: 500;
+    color:black;
+    font-size:13px;
+    text-align: left;
+}
+.user__row{
+    height: 50px;
+    
+}
+tr:hover{
+ background-color: rgb(245, 245, 245);
+}
+
+.edit__btn{
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 10px 10px;
+    font-weight: 400;
+    width: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(129, 227, 129);
+    
+}
+  
+.delete__btn{
+    margin-left: 10px;
+}
+.edit__btn:hover{
+    transition: all;
+    animation: ease-in-out;
+    animation-duration: 200;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.delete__btn:hover{
+    color: red;
+    cursor: pointer;
+}

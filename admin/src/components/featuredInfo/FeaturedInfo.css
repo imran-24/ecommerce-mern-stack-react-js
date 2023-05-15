@@ -1,0 +1,48 @@
+.feature__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feature__container__item{
+    padding: 20px !important;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 200px;
+    min-width: 200px;
+    padding: 0 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+}
+
+.feature__container__item__title{
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+}
+
+.cost{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+}
+
+.profit{
+    margin: auto;
+    font-size: 14px;
+    font-weight: 300;
+}
+.compare{
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+}
